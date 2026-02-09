@@ -1,70 +1,25 @@
-# ResQ-AI: Professional Prompt Engineering Log
+# ResQ-AI Project Development Log
 
 [2026-02-09 12:13:07]
-TASK: Initialize Version Control
-CONTEXT: Deploying the initial "HelpNow AI" prototype to a remote repository.
-INSTRUCTIONS:
-1. Target Repository: https://github.com/kavindon2007/cellose
-2. Action: Create a new branch named "Frontend".
-3. Action: Stage all current files and commit them.
-4. Commit Message: "frontend added"
-5. Action: Push the branch to the remote origin.
+"Can you push the current code to my GitHub repository? Use the branch name 'Frontend' and set the message to 'frontend added'. Here is the link: https://github.com/kavindon2007/cellose"
 
 [2026-02-09 12:14:49]
-TASK: Scaffold Project Architecture
-INSTRUCTIONS:
-1. Create a root directory named `rescue-ai-project`.
-2. Implement the following nested structure using PowerShell:
-   - `backend/app/` (including `__init__.py`, `main.py`, `database.py`, `ai_agent.py`)
-   - `frontend/src/` (including `components/`, `pages/`, `services/`)
-3. Create placeholder configuration files (`.env`, `requirements.txt`, `serviceAccountKey.json`).
+"I need to start a new project called 'rescue-ai-project'. Set up a proper directory structure with a backend using Python and a frontend using React. Make sure to include folders for components, hooks, services, and some basic config files like .env and requirements.txt."
 
 [2026-02-09 12:15:55]
-PERSONA: Senior Full-Stack AI Engineer & UX Expert.
-CONTEXT: Building "ResQ-AI" for "Vibe-a-Thon 2026".
-OBJECTIVE: Develop an "Innovation-First" Emergency Response System.
-CORE REQUIREMENTS:
-- Dynamic Form: Support for Text, Media Uploads, and Voice Input.
-- Geolocation: Automatic Lat/Long capture.
-- AI Logic: Simulated classification (Police/Fire/Ambulance) and Severity detection (Low/Critical).
-- Real-Time UI: A 6-stage status tracker with active-state highlighting.
-- Innovation Hooks: Multi-language support, Floating AI Chatbot, and Priority Visual Indicators.
-TECH STACK: React (Vite), Tailwind CSS, Simulated Backend.
-OUTPUT: Full directory structure and production-ready code for `App.jsx`, `EmergencyForm.jsx`, and `StatusTracker.jsx`.
+"I'm building an emergency response system called 'ResQ-AI' for a hackathon. It needs to be really high-end and modern. I want a form where people can type a description, upload photos or videos, and record voice messages. It should automatically get their GPS location. On the backend, try to figure out if it's a fire, medical, or police emergency and how serious it is. Also, build a live status tracker with a few steps so the user knows help is coming."
 
 [2026-02-09 12:19:08]
-TASK: Sync Local Changes to Remote
-CONTEXT: Manual file edits have been made in the frontend module.
-INSTRUCTIONS: Stage all modified files and commit them to the "Frontend" branch with the message "updated file".
+"I've made some manual changes to the files. Can you stage everything and commit it to the Frontend branch with the message 'updated file'?"
 
 [2026-02-09 12:21:21]
-TASK: Dependency Management
-INSTRUCTIONS: Install the core backend prerequisites via pip: `fastapi`, `uvicorn`, `sqlalchemy`, `python-multipart`, and `pydantic`.
+"Install the necessary backend packages: fastapi, uvicorn, sqlalchemy, python-multipart, and pydantic."
 
 [2026-02-09 12:22:46]
-TASK: Backend Logic Implementation
-INSTRUCTIONS: Implement the FastAPI application logic in `backend/app/main.py`. 
-FEATURES TO INCLUDE:
-- SQLite/SQLAlchemy integration for incident storage.
-- WebSocket `ConnectionManager` for real-time status broadcasting.
-- Simulated AI analysis function `analyze_incident_with_ai`.
-- API Endpoints: `/report/` (POST), `/ws/status/` (WebSocket), `/incidents/` (GET), `/sms-fallback/` (POST).
+"Here is the backend code I want to use for the FastAPI server. It handles the database, websockets for the status tracker, and some basic keyword-based logic to categorize the emergency. Please add this to the project."
 
 [2026-02-09 12:26:43]
-TASK: Local Deployment & Verification
-INSTRUCTIONS: Execute the start commands for both the FastAPI backend and the Vite frontend to enable manual UI testing and verification.
+"Can you run both the backend and frontend now so I can see it working?"
 
 [2026-02-09 12:28:28]
-TASK: Incremental Version Control
-INSTRUCTIONS: Stage the latest backend and frontend integrations.
-COMMIT MESSAGE: "backend added"
-TARGET: Branch "Frontend"
-
-[2026-02-09 12:31:29]
-TASK: Create Metadata Log
-INSTRUCTIONS: Create a persistent file named `prompt.txt`. 
-CONTENT: Log every prompt issued during this session along with its corresponding ISO timestamp to maintain a clean record of project evolution.
-
-[2026-02-09 12:33:18]
-TASK: Qualitative Prompt Refactoring
-INSTRUCTIONS: Act as a Prompt Engineer. Review the existing `prompt.txt` log. Refactor each entry into a "Professional Grade" prompt, incorporating clear Personas, Tasks, Context, and Constraints where applicable. Maintain original timing data.
+"I want to commit this new full-stack code to the Frontend branch. Use the commit message 'backend added'."
