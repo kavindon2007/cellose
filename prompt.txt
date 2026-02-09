@@ -1,0 +1,32 @@
+[2026-02-09 12:13:07] Make a new branch in github page: https://github.com/kavindon2007/cellose, and commit this, with the commit message "frontend added" the branch name is "Frontend".
+
+[2026-02-09 12:14:49] # 1. Create Project Root
+New-Item -ItemType Directory -Force -Path rescue-ai-project
+Set-Location rescue-ai-project
+# 2. Build Backend Skeleton
+... (Directory creation script)
+
+[2026-02-09 12:15:55] Act as a Senior Full-Stack AI Engineer and UX Expert. I am participating in "Vibe-a-Thon 2026" and I need to build the winning submission: "ResQ-AI". CONTEXT: ... YOUR GOAL: ... REQUIREMENTS SPECIFICATION (Strict Adherence): ...
+
+[2026-02-09 12:19:08] i edited the some files just commit this with a message of updated file in the frontend branch 
+
+[2026-02-09 12:21:21] install prerequesites for upcoming feature:
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+pydantic
+
+[2026-02-09 12:22:46] add this code:
+import os
+import shutil
+import random
+... (FastAPI code block)
+
+[2026-02-09 12:26:43] run the app for vieweng 
+
+[2026-02-09 12:28:28] i want to commit this code in the branch frontend with commit message "
+
+[2026-02-09 12:29:23] add the message backend added 
+
+[2026-02-09 12:31:29] now create a text file named as prompt.txt with all the prompts i gave you just prompt is enought with timings 
