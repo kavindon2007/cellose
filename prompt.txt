@@ -1,32 +1,70 @@
-[2026-02-09 12:13:07] Make a new branch in github page: https://github.com/kavindon2007/cellose, and commit this, with the commit message "frontend added" the branch name is "Frontend".
+# ResQ-AI: Professional Prompt Engineering Log
 
-[2026-02-09 12:14:49] # 1. Create Project Root
-New-Item -ItemType Directory -Force -Path rescue-ai-project
-Set-Location rescue-ai-project
-# 2. Build Backend Skeleton
-... (Directory creation script)
+[2026-02-09 12:13:07]
+TASK: Initialize Version Control
+CONTEXT: Deploying the initial "HelpNow AI" prototype to a remote repository.
+INSTRUCTIONS:
+1. Target Repository: https://github.com/kavindon2007/cellose
+2. Action: Create a new branch named "Frontend".
+3. Action: Stage all current files and commit them.
+4. Commit Message: "frontend added"
+5. Action: Push the branch to the remote origin.
 
-[2026-02-09 12:15:55] Act as a Senior Full-Stack AI Engineer and UX Expert. I am participating in "Vibe-a-Thon 2026" and I need to build the winning submission: "ResQ-AI". CONTEXT: ... YOUR GOAL: ... REQUIREMENTS SPECIFICATION (Strict Adherence): ...
+[2026-02-09 12:14:49]
+TASK: Scaffold Project Architecture
+INSTRUCTIONS:
+1. Create a root directory named `rescue-ai-project`.
+2. Implement the following nested structure using PowerShell:
+   - `backend/app/` (including `__init__.py`, `main.py`, `database.py`, `ai_agent.py`)
+   - `frontend/src/` (including `components/`, `pages/`, `services/`)
+3. Create placeholder configuration files (`.env`, `requirements.txt`, `serviceAccountKey.json`).
 
-[2026-02-09 12:19:08] i edited the some files just commit this with a message of updated file in the frontend branch 
+[2026-02-09 12:15:55]
+PERSONA: Senior Full-Stack AI Engineer & UX Expert.
+CONTEXT: Building "ResQ-AI" for "Vibe-a-Thon 2026".
+OBJECTIVE: Develop an "Innovation-First" Emergency Response System.
+CORE REQUIREMENTS:
+- Dynamic Form: Support for Text, Media Uploads, and Voice Input.
+- Geolocation: Automatic Lat/Long capture.
+- AI Logic: Simulated classification (Police/Fire/Ambulance) and Severity detection (Low/Critical).
+- Real-Time UI: A 6-stage status tracker with active-state highlighting.
+- Innovation Hooks: Multi-language support, Floating AI Chatbot, and Priority Visual Indicators.
+TECH STACK: React (Vite), Tailwind CSS, Simulated Backend.
+OUTPUT: Full directory structure and production-ready code for `App.jsx`, `EmergencyForm.jsx`, and `StatusTracker.jsx`.
 
-[2026-02-09 12:21:21] install prerequesites for upcoming feature:
-fastapi
-uvicorn
-sqlalchemy
-python-multipart
-pydantic
+[2026-02-09 12:19:08]
+TASK: Sync Local Changes to Remote
+CONTEXT: Manual file edits have been made in the frontend module.
+INSTRUCTIONS: Stage all modified files and commit them to the "Frontend" branch with the message "updated file".
 
-[2026-02-09 12:22:46] add this code:
-import os
-import shutil
-import random
-... (FastAPI code block)
+[2026-02-09 12:21:21]
+TASK: Dependency Management
+INSTRUCTIONS: Install the core backend prerequisites via pip: `fastapi`, `uvicorn`, `sqlalchemy`, `python-multipart`, and `pydantic`.
 
-[2026-02-09 12:26:43] run the app for vieweng 
+[2026-02-09 12:22:46]
+TASK: Backend Logic Implementation
+INSTRUCTIONS: Implement the FastAPI application logic in `backend/app/main.py`. 
+FEATURES TO INCLUDE:
+- SQLite/SQLAlchemy integration for incident storage.
+- WebSocket `ConnectionManager` for real-time status broadcasting.
+- Simulated AI analysis function `analyze_incident_with_ai`.
+- API Endpoints: `/report/` (POST), `/ws/status/` (WebSocket), `/incidents/` (GET), `/sms-fallback/` (POST).
 
-[2026-02-09 12:28:28] i want to commit this code in the branch frontend with commit message "
+[2026-02-09 12:26:43]
+TASK: Local Deployment & Verification
+INSTRUCTIONS: Execute the start commands for both the FastAPI backend and the Vite frontend to enable manual UI testing and verification.
 
-[2026-02-09 12:29:23] add the message backend added 
+[2026-02-09 12:28:28]
+TASK: Incremental Version Control
+INSTRUCTIONS: Stage the latest backend and frontend integrations.
+COMMIT MESSAGE: "backend added"
+TARGET: Branch "Frontend"
 
-[2026-02-09 12:31:29] now create a text file named as prompt.txt with all the prompts i gave you just prompt is enought with timings 
+[2026-02-09 12:31:29]
+TASK: Create Metadata Log
+INSTRUCTIONS: Create a persistent file named `prompt.txt`. 
+CONTENT: Log every prompt issued during this session along with its corresponding ISO timestamp to maintain a clean record of project evolution.
+
+[2026-02-09 12:33:18]
+TASK: Qualitative Prompt Refactoring
+INSTRUCTIONS: Act as a Prompt Engineer. Review the existing `prompt.txt` log. Refactor each entry into a "Professional Grade" prompt, incorporating clear Personas, Tasks, Context, and Constraints where applicable. Maintain original timing data.
